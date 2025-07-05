@@ -41,8 +41,6 @@ namespace erenshor_wiki_integration
         public void SetHoveredItem(Item Item)
         {
             _currentItem = Item;
-
-            Logger.LogMessage($"Now Hovering{_currentItem.ItemName}");
         }
 
         public void ClearHoveredItem()
