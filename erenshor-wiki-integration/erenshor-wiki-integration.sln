@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "erenshor-wiki-integration", "erenshor-wiki-integration.csproj", "{75997405-995F-4221-8603-1441527ED8A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75997405-995F-4221-8603-1441527ED8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75997405-995F-4221-8603-1441527ED8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75997405-995F-4221-8603-1441527ED8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75997405-995F-4221-8603-1441527ED8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3B27E05-2E33-413E-95BD-02DC21D7A85A}
+	EndGlobalSection
+EndGlobal
