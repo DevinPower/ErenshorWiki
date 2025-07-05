@@ -55,11 +55,19 @@ namespace erenshor_wiki_integration
 
         void OpenWiki()
         {
-            if (_currentItem == null)
+            if (_currentItem != null)
+            {
+                string WikiName = CleanItemName(_currentItem.ItemName);
+                Application.OpenURL($"{Metadata.WIKI_BASE_URL}/{WikiName}");
                 return;
+            }
 
-            string WikiName = CleanItemName(_currentItem.ItemName);
-            Application.OpenURL($"{Metadata.WIKI_BASE_URL}/{WikiName}");
+            Character currentTarget = GameData.PlayerControl.CurrentTarget;
+            if (currentTarget != null && currentTarget.isNPC)
+            {
+                string WikiName = CleanItemName(currentTarget.MyNPC.NPCName);
+                Application.OpenURL($"{Metadata.WIKI_BASE_URL}/{WikiName}");
+            }
         }
     }
 }

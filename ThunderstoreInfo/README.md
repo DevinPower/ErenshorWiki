@@ -1,5 +1,5 @@
 # Overview
-In game integration for Erenshor's wiki. Currently implemented only for items, hover over any item and hit backtick (`) to open up the wiki page for that item in your browser.
+In game integration for Erenshor's wiki. Currently implemented for items and NPCs, hover over any item or target any NPC and hit backtick (`) to open up the wiki page in your browser.
 
 Please report any issues on GitHub.
 
